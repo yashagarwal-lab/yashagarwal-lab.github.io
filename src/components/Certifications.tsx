@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Medal, FileText } from 'lucide-react';
+import { ExternalLink, Medal } from 'lucide-react';
 
 import { nptelCerts, oracleCerts, googleCerts, otherCerts, unCerts } from '../data/certifications';
 

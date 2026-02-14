@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { GraduationCap, MapPin, Calendar, TrendingUp } from 'lucide-react';
+import { MapPin, Calendar, TrendingUp } from 'lucide-react';
 
 import { education } from '../data/education';
 
