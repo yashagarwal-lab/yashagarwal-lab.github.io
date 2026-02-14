@@ -1,13 +1,7 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, ArrowRight } from 'lucide-react';
 
-const tags = [
-    { label: 'Deep RL' },
-    { label: 'Computer Vision' },
-    { label: 'Generative AI' },
-    { label: 'Control Theory' },
-    { label: 'Full-Stack AI' },
-];
+import { heroTags } from '../data/hero';
 
 export const Hero = () => {
     const scrollTo = (href: string) => {
@@ -44,10 +38,10 @@ export const Hero = () => {
                     </p>
 
                     <div className="hero-tags">
-                        {tags.map((t) => (
+                        {heroTags.map((t) => (
                             <span
                                 key={t.label}
-                                className={`hero-tag ${t.accent ? 'hero-tag--accent' : ''}`}
+                                className="hero-tag"
                             >
                                 {t.label}
                             </span>
